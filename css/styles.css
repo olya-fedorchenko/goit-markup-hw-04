@@ -179,7 +179,7 @@ a {
 }
 
 .e-mail-tel .link {
-    /* display: block; */
+    
     align-items: center;
     padding: 32px 0;
     font-weight: 500;
@@ -208,8 +208,6 @@ a {
 
 .headrer-tel-link, .header-mailto-link {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     
 }
@@ -662,10 +660,10 @@ section {
 }
 
 .clients-list {
-    padding: auto;
+    
     display: flex;
     justify-content: center;
-    margin-bottom: 94px;
+    
 
 }
 
@@ -807,10 +805,13 @@ border-color: rgba(33, 150, 243, 1);
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(---primary-white-color);
-    width: 116px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* width: 116px;
     margin-bottom: 0;
     margin-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0; */
+    
 }
 
 .footer-group {
